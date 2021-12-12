@@ -60,21 +60,39 @@ button:hover {
 }
 
 h1 {
-text-align: center;
 font-size: 40px;
+padding-right: 512px;
 
 }
 
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: #ecf0f1;
     text-decoration: none;
+    margin-block-start: -848px;
+    margin-inline-end: 780px;
+    width: 484px;
 }
 
 .grid {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(12, 1fr);
+  }
+
+  .box {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: seashell;
+  }
+
+  .photo {
+      width: fit-content
+
   }
