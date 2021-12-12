@@ -18,13 +18,14 @@ li, a, button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav_links {
@@ -45,6 +46,7 @@ header {
 }
 
 button {
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgb(0,136,169,1);
     border: none;
@@ -55,4 +57,11 @@ button {
 
 button:hover {
     background-color: rgb(0,136,169,1);
+}
+
+h1, p {
+text-align: left;
+font-size: 16px;
+margin-left: auto;
+
 }
