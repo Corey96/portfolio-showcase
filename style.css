@@ -60,8 +60,12 @@ button:hover {
 }
 
 h1 {
-font-size: 40px;
-padding-right: 512px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-right: 512px;
+    text-align: center; 
+    color: #ecf0f1;
 
 }
 
@@ -71,8 +75,7 @@ p {
     font-size: 18px;
     color: #ecf0f1;
     text-decoration: none;
-    margin-block-start: -848px;
-    margin-inline-end: 780px;
+    margin-left: 50px;
     width: 484px;
 }
 
@@ -93,6 +96,12 @@ p {
   }
 
   .photo {
-      width: fit-content
+        float: right;
+        margin-right: 50px;
+  }
 
+  .photo:hover {
+      opacity: 0.40;
+      transition: 0.5;
+      
   }
