@@ -5,15 +5,46 @@
     padding: 0%;
 }
 
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:aquamarine
+}
+
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), #009),url(assets/cstudio.png);
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(131, 131, 167)),url(assets/cstudio.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
 .logo{
-    width: 140px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 4%;
     left: 10%;
@@ -22,29 +53,24 @@
 .banner-text{
     text-align: center;
     color: white;
-    padding-top: 180px;
+    padding-top: 100px;
     font-family: 'Montserrat' 'san serif'
 }
 
 .banner-text h1 {
     font-size: 130px;
+    font-family: 'Montserrat','sans-serif';
 }
 
 .banner-text p{
     font-size: 20px;
+    font-family: 'Montserrat','sans-serif';
     font-style: italic;
 }
 
-.banner-btn{
-    margin: 70px auto 0;
+@media screen and (max width: 770px) {
+    .banner-text h1 {
+        font-size: 44px;
+        font-family: 'Montserrat','sans-serif';
 }
 
-.banner-btn a{
-    width: 150px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 10px;
-    padding: 12px 0;
-    color: #fff;
-    border: .5px solid #fff;
-}
