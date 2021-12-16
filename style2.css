@@ -118,12 +118,12 @@ li, a{
 
 .work-img img{
     width: 200%;
-    border-radius: 10px;
+    border-radius: 311px;
 
 }
 
 .work-img img:hover{
-    opacity: 1%;
+    opacity: 0.40%;
     cursor:pointer;
     transition: 0.5s;
 }
