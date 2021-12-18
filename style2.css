@@ -172,3 +172,18 @@ li, a{
     border-radius: 100px;
 
 }
+
+.box-one p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.work-2 h2{
+    font-family: "Montserrat", sans-serif;
+    color: #009688;
+    text-align: center;
+}
+
+.work-2 p{
+    font-family: "Montserrat", sans-serif;
+    
+}
