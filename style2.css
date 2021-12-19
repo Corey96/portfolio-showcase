@@ -37,17 +37,17 @@ li, a{
 }
 
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), rgb(131, 131, 167)),url(assets/cstudio.png);
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(138, 134, 134)),url(assets/cstudio.png);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     position: absolute;
-    top: 4%;
+    top: 1%;
     left: 10%;
 }
 
@@ -61,12 +61,16 @@ li, a{
 .banner-text h1 {
     font-size: 130px;
     font-family: 'Montserrat','sans-serif';
+    float: right;
+    margin-bottom: 200px;
+    padding-top: 255px;
 }
 
 .banner-text p{
     font-size: 20px;
     font-family: 'Montserrat','sans-serif';
     font-style: italic;
+    margin-left: 30px;
 }
     
 
