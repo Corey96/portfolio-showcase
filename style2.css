@@ -212,10 +212,10 @@ li, a{
 }
 
 .site-footer {
-    background-color: white;
+      background: linear-gradient(rgba(18, 223, 206, 0.5), rgb(133, 129, 129));
       text-align: center;
-      margin: 10px 0;
       padding: 10px 0;
+      font-family: "Montserrat", sans-serif;
   }
   
   #social-wrapper {
