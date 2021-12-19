@@ -129,9 +129,7 @@ li, a{
 }
 
 .work-img img:hover{
-    opacity: 0.40%;
     cursor:pointer;
-    transition: 0.5s;
 }
 .works h1{
     font-family: "Montserrat", sans-serif;
