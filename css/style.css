@@ -37,7 +37,7 @@ li, a{
 }
 
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), rgb(138, 134, 134)),url(assets/cstudio.png);
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(138, 134, 134)),url(cstudio.png);
     background-size: cover;
     background-position: center;
     height: 70vh;
