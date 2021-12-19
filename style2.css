@@ -154,27 +154,45 @@ li, a{
     border: 1px solid #009688;
 }
 .container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-auto-rows: 200px;
-    padding: 16px;
+    padding: 60px;
     
 }
 
-.box-one img{
+.photo {
     border-spacing: px;
-    width: auto;
-    height : auto;
     max-height: 100%;
     max-width: 100%;
+    border-radius: 50px;
+    width: auto;
+    height : auto;
     float: right;
-    border-radius: 100px;
+    cursor: pointer;
+   
 
+}
+
+.photo:hover{
+    opacity: 0.5%;
+    color: violet;
+    transition: 0.5s;
+}
+
+.box-one{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    width: 627px;
 }
 
 .box-one p {
     font-family: "Montserrat", sans-serif;
+}
+
+.box-one h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #009688;
 }
 
 .work-2 h2{
@@ -185,5 +203,54 @@ li, a{
 
 .work-2 p{
     font-family: "Montserrat", sans-serif;
+    text-align: center;
     
 }
+
+.site-footer {
+    background-color: white;
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px 0;
+  }
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .twitter-icon,
+  .facebook-icon,
+  .instagram-icon,
+  .linkedin-icon, 
+  .email-icon,
+  .linkedin-icon,
+  .soundcloud-icon {
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    
