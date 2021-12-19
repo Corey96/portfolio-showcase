@@ -176,12 +176,6 @@ li, a{
 
 }
 
-.photo:hover{
-    opacity: 0.5%;
-    color: violet;
-    transition: 0.5s;
-}
-
 .box-one{
     margin-top: 8px;
     margin-bottom: 6px;
